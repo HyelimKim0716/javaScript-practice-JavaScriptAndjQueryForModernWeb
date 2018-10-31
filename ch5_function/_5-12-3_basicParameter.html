@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5.12.3 기본 매개변수</title>
+
+    <script>
+        function test1(a, b, c) {
+            if (!b) b = 52;
+            if (!c) c = 273;
+
+            alert(a + ", " + b + ", " + c);
+        }
+
+        test1(1, 2);
+
+        function test2(a, b, c) {
+            b = b || 52;
+            c = c || 273;
+
+            alert(a + ", " + b + ", " + c);
+        }
+
+        test2(10, 20);
+
+        function test3(a, b = 52, c = 273) {
+            alert(a + ", " + b + ", " + c);
+        }
+
+        test3(100, 200);
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
