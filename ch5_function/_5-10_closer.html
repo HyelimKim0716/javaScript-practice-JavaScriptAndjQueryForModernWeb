@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5.10 클로저</title>
+
+    <script>
+        // function test1(name) {
+        //     var output = 'Hello ' + name + '..!!';
+        // }
+        //
+        // alert(output);   // error
+
+        function test2(name) {
+            var output = 'Hello ' + name + '..!!';
+            return function () {
+                alert(output)
+            }
+        }
+
+        test2('JavaScript!')();
+
+        var test3 = test2('Web');
+        var test4 = test2('JavaScript');
+
+        test3();
+        test4();
+
+        // alert(test3());
+        // alert(test4());
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
