@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>연습문제</title>
+    <script>
+        const input = prompt('인사를 입력해주세요.');
+        const helloIndex = input.indexOf('안녕');
+
+        if (helloIndex >= 0)
+            alert('안녕하세요');
+        else
+            alert('인사를 안 하다니');
+
+        const goodbyeIndex1 = input.indexOf('잘자');
+        const goodbyeIndex2 = input.indexOf('잘 자');
+        if (goodbyeIndex1 >= 0 || goodbyeIndex2 >= 0)
+            alert('안녕히 주무세요');
+
+        const number = Number(prompt('숫자를 입력하세요', 0));
+        if (number % 4 === 0)
+            alert('4로 나눌 수 있는 숫자입니다')
+    </script>
+</head>
+<body>
+
+</body>
+</html>

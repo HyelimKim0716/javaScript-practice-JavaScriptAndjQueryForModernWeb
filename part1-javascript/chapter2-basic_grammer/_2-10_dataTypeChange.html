@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Type Change</title>
+    <script>
+        alert('52 * 273');      // 52 * 273
+
+        alert(52 * 273);        // 14196
+
+        alert('52' * 273);      // 14196
+
+        alert(52 * '273');      // 14196
+
+        alert(52 * '이백칠십삼');    // NaN
+
+        // 자료형 확인
+        var inputType = prompt('숫자를 입력해주세요.', '숫자');
+
+        alert(typeof (inputType));       // string
+
+        // 강제 숫자 형변환
+        var input = prompt('숫자를 입력해주세요.', '숫자');
+        var numberInput = Number(input);
+
+        alert(typeof (numberInput) + " : " + numberInput);
+
+
+        var sqrt = Math.sqrt(-3);
+        alert(sqrt);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

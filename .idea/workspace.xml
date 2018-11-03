@@ -2,19 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80fb8710-5894-47e8-a5ef-59d837fad789" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch5_function/_5-10_closer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5_function/_5-11-1_timerFunctionSetTimeout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5_function/_5-11-3_codePracticeFunction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5_function/_5-11-4_checkNumberFunction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5_function/_5-11-5_changeNumberFunction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5_function/_5-11_1_timerFunctionSetInterval.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5_function/_5-12-5_expansionOperator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5_function/_5-2_declaredFunction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5_function/_5-7_innerFunction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5_function/_5-8_callbackFunction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1-javascript/chapter1-overview/_01_TypeOfJavascript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1-javascript/chapter2-basic_grammer/_2-10_dataTypeChange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1-javascript/chapter2-basic_grammer/_2-11_boolTypeChange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1-javascript/chapter2-basic_grammer/_2-12_matchOperator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1-javascript/chapter2-basic_grammer/_2-13-1_templateString.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1-javascript/chapter2-basic_grammer/_2-13-2_keywordLetConst.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1-javascript/chapter2-basic_grammer/_2-9_input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1-javascript/chapter3-if/_3-4_ifElseIf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1-javascript/chapter3-if/_3-7-shortCondition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1-javascript/chapter3-if/_3-last-practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-5_changeableFactorFunction.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch4_loop/_4-6_for_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch4_loop/_4-6_forIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch5_function/_5-1_anonymous_function.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch5_function/_5-1_anonymousFunction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4_loop/_4-3_while.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter4-loop/_4-3_while.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4_loop/_4-6_forIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter4-loop/_4-6_forIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4_loop/_4-9_continue.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter4-loop/_4-9_continue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4_loop/_practice_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter4-loop/_practice_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4_loop/_practice_2_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter4-loop/_practice_2_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4_loop/_practice_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter4-loop/_practice_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-10_closer.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-10_closer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-11-1_timerFunctionSetTimeout.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11-1_timerFunctionSetTimeout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-11-3_codePracticeFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11-3_codePracticeFunction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-11-4_checkNumberFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11-4_checkNumberFunction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-11-5_changeNumberFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11-5_changeNumberFunction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-11_1_timerFunctionSetInterval.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11_1_timerFunctionSetInterval.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-12-1_javaScriptPracticeOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-1_javaScriptPracticeOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-12-2_loopAndCallbackFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-2_loopAndCallbackFunction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-12-3_basicParameter.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-3_basicParameter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-12-5_expansionOperator.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-5_expansionOperator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-1_anonymousFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-1_anonymousFunction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-2_declaredFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-2_declaredFunction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-7_innerFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-7_innerFunction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5_function/_5-8_callbackFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-8_callbackFunction.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,100 +76,129 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1755070178">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="130" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="130" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5_function/_5-2_declaredFunction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5_function/_5-7_innerFunction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5_function/_5-8_callbackFunction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5_function/_5-10_closer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5_function/_5-11_1_timerFunctionSetInterval.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5_function/_5-11-1_timerFunctionSetTimeout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5_function/_5-11-3_codePracticeFunction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5_function/_5-11-4_checkNumberFunction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5_function/_5-11-5_changeNumberFunction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch5_function/_5-12-5_expansionOperator.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11_1_timerFunctionSetInterval.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-1_javaScriptPracticeOrder.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-2_loopAndCallbackFunction.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="19" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-3_basicParameter.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="10" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/part1-javascript/chapter2-basic_grammer/_2-11_boolTypeChange.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="16" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11-3_codePracticeFunction.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="20" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-5_expansionOperator.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11-5_changeNumberFunction.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-7_innerFunction.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -176,6 +224,12 @@
         <option value="$PROJECT_DIR$/ch5_function/_5-11-4_checkNumberFunction.html" />
         <option value="$PROJECT_DIR$/ch5_function/_5-11-5_changeNumberFunction.html" />
         <option value="$PROJECT_DIR$/ch5_function/_5-12-5_expansionOperator.html" />
+        <option value="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-2_declaredFunction.html" />
+        <option value="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-10_closer.html" />
+        <option value="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11-4_checkNumberFunction.html" />
+        <option value="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-3_basicParameter.html" />
+        <option value="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-5_expansionOperator.html" />
+        <option value="$PROJECT_DIR$/part1-javascript/chapter5-function/_5-7_innerFunction.html" />
       </list>
     </option>
   </component>
@@ -187,8 +241,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="426" />
-    <option name="height" value="709" />
+    <option name="width" value="560" />
+    <option name="height" value="945" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -199,18 +253,31 @@
         <subPane>
           <expand>
             <path>
-              <item name="javaScriptPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaScriptPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="javaScript-practice-JavaScriptAndjQueryForModernWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaScript-practice-JavaScriptAndjQueryForModernWeb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javaScriptPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaScriptPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="ch4_loop" type="462c0819:PsiDirectoryNode" />
+              <item name="javaScript-practice-JavaScriptAndjQueryForModernWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaScript-practice-JavaScriptAndjQueryForModernWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="part1-javascript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javaScriptPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaScriptPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="ch5_function" type="462c0819:PsiDirectoryNode" />
+              <item name="javaScript-practice-JavaScriptAndjQueryForModernWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaScript-practice-JavaScriptAndjQueryForModernWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="part1-javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2-basic_grammer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaScript-practice-JavaScriptAndjQueryForModernWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaScript-practice-JavaScriptAndjQueryForModernWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="part1-javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4-loop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaScript-practice-JavaScriptAndjQueryForModernWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaScript-practice-JavaScriptAndjQueryForModernWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="part1-javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter5-function" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,6 +292,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/part1-javascript/chapter5-function" />
+      <recent name="$PROJECT_DIR$/part1-javascript/chapter4-loop" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,17 +328,17 @@
       <workItem from="1540979937668" duration="7000" />
       <workItem from="1541045235073" duration="1538000" />
       <workItem from="1541066823025" duration="2021000" />
+      <workItem from="1541077210564" duration="2833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3566000" />
+    <option name="totallyTimeSpent" value="6399000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="426" height="709" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="946" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5037037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17179024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -287,73 +364,128 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch5_function/_5-2_declaredFunction.html">
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter3-if/_3-4_ifElseIf.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter4-loop/_4-6_forIn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch5_function/_5-7_innerFunction.html">
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter4-loop/_4-9_continue.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-2_declaredFunction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="195">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch5_function/_5-8_callbackFunction.html">
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-5_changeableFactorFunction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-8_callbackFunction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch5_function/_5-10_closer.html">
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-10_closer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="450">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch5_function/_5-11_1_timerFunctionSetInterval.html">
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11-1_timerFunctionSetTimeout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="120">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch5_function/_5-11-1_timerFunctionSetTimeout.html">
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11-4_checkNumberFunction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter2-basic_grammer/_2-11_boolTypeChange.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11-3_codePracticeFunction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch5_function/_5-11-3_codePracticeFunction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch5_function/_5-11-4_checkNumberFunction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch5_function/_5-11-5_changeNumberFunction.html">
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11-5_changeNumberFunction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch5_function/_5-12-5_expansionOperator.html">
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-1_javaScriptPracticeOrder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-2_loopAndCallbackFunction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-3_basicParameter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-12-5_expansionOperator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5_function/_5-7_innerFunction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-7_innerFunction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1-javascript/chapter5-function/_5-11_1_timerFunctionSetInterval.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

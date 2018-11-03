@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3.4 if else if 조건문</title>
+    <script>
+        // p.85
+        // 1. 사용자에게 숫자를 입력받아 양수, 0, 음수를 구하는 프로그램
+        var number1 = prompt('숫자를 입력해주세요.', 0);
+
+        if (number1 < 0) {
+            alert('음수');
+        } else if (number1 === 0) {
+            alert('0');
+        } else {
+            alert('양수');
+        }
+
+        // 2. 사용자에게 숫자를 입력받아 홀수와 짝수를 구분하는 프로그램
+        const number2 = prompt('숫자를 입력해주세요.', 0);
+        if (number2 % 2 === 0)
+            alert('짝수');
+        else
+            alert('홀수');
+
+        // 3. 사용자에게 국어, 영어, 수학 점수를 입력받아 평군을 구한 뒤 수우미양가를 구분하는 프로그램
+        const korean = prompt('국어', 0);
+        const english = prompt('영어', 0);
+        const math = prompt('수학', 0);
+        const avg = (korean + english + math) / 3;
+
+        if (avg > 90)
+            alert('수');
+        else if (avg > 80)
+            alert('우');
+        else if (avg > 70)
+            alert('미');
+        else if (avg > 60)
+            alert('양');
+        else
+            alert('가');
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

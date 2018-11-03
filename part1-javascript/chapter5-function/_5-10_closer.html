@@ -5,16 +5,16 @@
     <title>5.10 클로저</title>
 
     <script>
-        // function test1(name) {
-        //     var output = 'Hello ' + name + '..!!';
-        // }
-        //
-        // alert(output);   // error
+        function test1(name) {
+            var output = 'Hello ' + name + '..!!';
+        }
+
+        alert(output);   // error
 
         function test2(name) {
             var output = 'Hello ' + name + '..!!';
             return function () {
-                alert(output)
+                alert(output);
             }
         }
 

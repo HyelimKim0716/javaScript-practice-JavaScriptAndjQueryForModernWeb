@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change Bool Type</title>
+    <script>
+        alert(Boolean(0));          // false
+
+        alert(Boolean(!!0));        // false
+
+        alert(Boolean(NaN));        // false
+
+        alert(Boolean(''));         // false
+
+        alert(Boolean(null));       // false
+
+        alert(Boolean(undefined));  // false
+
+        alert(Boolean('String'));   // true
+
+        alert(Boolean(273));        // true
+
+        alert('' == false);         // true
+
+        alert('' == 0);             // true
+
+        alert(0 == false);          // true
+
+        alert('273' == 273);        // true
+
+        alert(30 > 20 > 10);         // false 1 > 10
+
+        alert(30 > (20 > 10) );     // true 30 > 1
+
+        window.onload = function () {
+            // 화면이 다 뜨고 제일 나중에 페이지에서 보여줄 것.
+            // 이 스코프 밖이 먼저 실행됨
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

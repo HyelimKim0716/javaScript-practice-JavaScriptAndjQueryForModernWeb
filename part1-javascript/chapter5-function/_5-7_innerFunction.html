@@ -9,17 +9,16 @@
             return x * x;
         }
 
-
-        // 아래의 square 함수를 이용
-       function pythagoras1(width, height) {
-            return Math.sqrt(square1(width) + square1(height))
+        // 아래의 square1 함수를 이용
+        function pythagoras1(width, height) {
+            return Math.sqrt(square1(width) + square1(height));
         }
 
+        // pythagoras() 함수의 squre 가 두 번째 정의된 squre() 호출
         alert(pythagoras1(3, 4));
 
+        // 위에 정의된 square() 를 덮어씌움
         function square1(width, height, hypotenuse) {
-            alert("width: " + width + ", height: " + height + ", hypotenuse: " + hypotenuse);
-
             if (width * width + height * height == hypotenuse * hypotenuse) {
                 return true;
             } else {
@@ -27,6 +26,10 @@
             }
         }
 
+
+
+
+        // 내부 함수 이용
         function pythagoras2(width, height) {
 
             function square(x) {
@@ -34,9 +37,11 @@
             }
 
             return Math.sqrt(square(width) + square(height))
+
         }
 
         alert(pythagoras2(3, 4))
+
     </script>
 </head>
 <body>
