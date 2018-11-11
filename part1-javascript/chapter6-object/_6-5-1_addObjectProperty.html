@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6.5.1 속성 추가</title>
+
+    <script>
+        var student = {};
+
+        student.이름 = '김혜림';
+        student.취미 = '악기';
+
+        student.showProperty() = function () {
+            var output = '';
+
+            for (var key in this) {
+                if (key != 'toString') {
+                    output += key + '\t' + this[key] + '\n';
+                }
+            }
+
+            return output;
+        };
+
+        alert(student.showProperty());
+
+        delete (student.이름);
+
+        alert(student.showProperty());
+    </script>
+</head>
+<body>
+
+</body>
+</html>

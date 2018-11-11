@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6.6 객체와 배열을 사용한 데이터 관리</title>
+
+    <script>
+        var student0 = { 이름: '윤인성', 국어: 87, 수학: 98, 영어: 88, 과학: 95};
+        var student1 = { 이름: '연하진', 국어: 87, 수학: 98, 영어: 88, 과학: 95};
+        var student2 = { 이름: '구지연', 국어: 87, 수학: 98, 영어: 88, 과학: 95};
+        var student3 = { 이름: '나선주', 국어: 87, 수학: 98, 영어: 88, 과학: 95};
+        var student4 = { 이름: '윤아린', 국어: 87, 수학: 98, 영어: 88, 과학: 95};
+        var student5 = { 이름: '윤명월', 국어: 87, 수학: 98, 영어: 88, 과학: 95};
+        var student6 = { 이름: '김미화', 국어: 87, 수학: 98, 영어: 88, 과학: 95};
+        var student7 = { 이름: '김연화', 국어: 87, 수학: 98, 영어: 88, 과학: 95};
+        var student8 = { 이름: '박아현', 국어: 87, 수학: 98, 영어: 88, 과학: 95};
+        var student9 = { 이름: '서준서', 국어: 87, 수학: 98, 영어: 88, 과학: 95};
+
+        var students = [];
+        students.push(student0,
+            student1,
+            student2,
+            student3,
+            student4,
+            student5,
+            student6,
+            student7,
+            student8,
+            student9);
+
+        for (var i in students) {
+            students[i].getSum = function () {
+                return this.국어 + this.수학 + this.영어 + this.과학;
+            };
+
+            students[i].getAverage = function () {
+                return this.getSum() / 4;
+            }
+        }
+
+        var output = '이름\t총점\t평균\n';
+        for (var i in students) {
+            with (students[i]) {
+                output +=  이름 + '\t' + getSum() + '\t' + getAverage() + '\n';
+            }
+        }
+
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6.8.2 참조 복사와 값 복사</title>
+
+    <script>
+        function clone(obj) {
+            var output = {};
+            for (var key in obj) {
+                output[key] = obj[key];
+            }
+
+            return output;
+        }
+
+        var original = { a: 10, b: 20};
+        var referenced = original;
+        var cloned = clone(original);
+
+        original.a = 20;
+
+        alert(JSON.stringify(referenced, null, 2));
+        alert(JSON.stringify(cloned, null, 2));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

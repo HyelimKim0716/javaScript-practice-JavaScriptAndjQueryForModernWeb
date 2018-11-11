@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6.7 함수를 사용한 객체 생성</title>
+
+    <script>
+        function makeStudent(name, korean, math, english, science) {
+            var willReturn = {
+                이름: name,
+                국어: korean,
+                수학: math,
+                영어: english,
+                과학: science,
+
+                getSum: function () {
+                    return this.국어 + this.수학 + this.영어 + this.과학;
+                },
+
+                getAverage: function () {
+                    return this.getSum() / 4;
+                },
+
+                toString: function () {
+                    return this.이름 + '\t' + this.getSum() + '\t' + this.getAverage();
+                }
+            };
+
+            return willReturn;
+        }
+
+        var students = [];
+
+        students.push(makeStudent('김혜림', 100, 99, 98, 97));
+        students.push(makeStudent('윤인성', 100, 99, 98, 97));
+        students.push(makeStudent('연하진', 100, 99, 98, 97));
+        students.push(makeStudent('서민정', 100, 99, 98, 97));
+
+        var output = '';
+
+        for (var key in students) {
+            output += students[key].toString() + '\n';
+        }
+
+        alert(output);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
