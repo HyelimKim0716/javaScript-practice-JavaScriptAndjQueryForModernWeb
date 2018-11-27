@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8.10.2 화살표 함수를 사용한 Array 객체의 메서드 활용</title>
+
+    <script>
+        const students = [
+            { name: '김혜림1', korean: 87, math: 90, english: 65, science: 78},
+            { name: '김혜림2', korean: 87, math: 90, english: 65, science: 97},
+            { name: '김혜림3', korean: 87, math: 90, english: 65, science: 30},
+            { name: '김혜림4', korean: 87, math: 90, english: 65, science: 99}
+        ];
+
+        const filterScienceA = students.filter(function (item) {
+            return item > 90;
+        });
+
+        const filterScienceB = students.filter((item) => item > 90);
+
+        alert(filterScienceA);
+        alert(filterScienceB);
+
+        const filterAverageA = students.filter(function (item) {
+            return ((item.korean + item.math + item.english + item.science) / 4) > 90;
+        });
+
+        const filterAverageB = students.filter((item) => ((item.korean + item.math + item.english + item.science) / 4) > 90);
+
+        alert(filterAverageA);
+        alert(filterAverageB);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

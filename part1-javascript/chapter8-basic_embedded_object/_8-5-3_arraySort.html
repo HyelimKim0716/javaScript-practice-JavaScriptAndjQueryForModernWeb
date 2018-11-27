@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8.5.3 Array 객체 정렬</title>
+
+    <script>
+        // 생성자 함수 선언
+        function Student(name, korean, math, english, science) {
+            this.이름 = name;
+            this.국어 = korean;
+            this.수학 = math;
+            this.영어 = english;
+            this.과학 = science;
+
+            this.getSum = function () {
+                return this.국어 + this.수학 + this.영어 + this.과학;
+            };
+
+            this.getAverage = function () {
+                return this.getSum() / 4;
+            };
+
+            this.toString = function () {
+                return this.이름 + '\t' + this.getSum() + '\t' + this.getAverage() + '\n';
+            };
+        }
+
+        var students = [];
+        students.push(new Student('김', 98, 97, 94, 93));
+        students.push(new Student('혜', 88, 97, 94, 93));
+        students.push(new Student('림', 78, 97, 94, 93));
+        students.push(new Student('민', 58, 97, 94, 93));
+        students.push(new Student('건', 48, 97, 94, 93));
+
+        // 정렬
+        students.sort(function (left, right) {
+            return right.getSum() - left.getSum();
+        });
+
+        // 1등부터 3등까지만 배열에 남겨둠
+        students = students.slice(0, 3);
+
+        // same as...
+        // students = students.sort(function (left, right) {
+        //     return right.getSum() - left.getSum();
+        // }).slice(0, 3);
+
+        var output = '이름\t총점\t평균\n';
+
+        for(var i in students) {
+            output += students[i].toString();
+        }
+
+        alert(output);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8.2.4 모든 객체에 메서드 추가</title>
+
+    <script>
+        Object.prototype.test = function () {
+            alert(this)
+        };
+
+        var number = 273;
+        number.test();
+    </script>
+</head>
+<body>
+
+</body>
+</html>

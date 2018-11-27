@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8.8.5 연산 메서드</title>
+
+    <script>
+        const array = [1, 2, 3, 4, 5];
+
+        const reduceResult = array.reduce(function (previousValue, currentValue) {
+            // 앞에서부터 2개씩
+            return previousValue + currentValue;
+        });
+
+        alert(reduceResult);
+
+        // 뒤에서부터 2개씩
+        const reduceRightResult = array.reduceRight(function (previousValue, currentValue) {
+            return previousValue + currentValue;
+        });
+
+        alert(reduceRightResult);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

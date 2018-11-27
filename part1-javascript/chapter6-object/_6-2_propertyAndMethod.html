@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6.2 속성과 메서드</title>
+
+    <script>
+        var person = {
+            name: '김혜림',
+            eat: function (food) {
+                // 자기 자신이 가진 속성을 사용할 경우 this 키워드 사용
+                alert(this.name + '아, ' + food + '먹고싶다');
+            }
+        };
+
+        person.eat('곱창');
+    </script>
+</head>
+<body>
+
+</body>
+</html>
