@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8.2.3 자료형 구분</title>
+
+    <script>
+        var numberFromLiteral = 273;
+        var numberFromObject = new Number(273);
+
+        var output1 = '';
+        output1 += '1. ' + typeof (numberFromLiteral) + '\n';
+        output1 += '2. ' + typeof (numberFromObject);
+
+        alert(output1);  // 1. number \n 2. object
+
+        output2 = '1. ' + typeof (numberFromLiteral.constructor) + '\n';
+        output2 += '2. ' + typeof (numberFromObject.constructor);
+        alert(output2);  // 1. function \n 2. function
+
+        var output3 = '1. ' + (numberFromLiteral.constructor == Number) + '\n';
+        output3 += '2. ' + (numberFromObject.constructor == Number) + '\n';
+        alert(output3);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

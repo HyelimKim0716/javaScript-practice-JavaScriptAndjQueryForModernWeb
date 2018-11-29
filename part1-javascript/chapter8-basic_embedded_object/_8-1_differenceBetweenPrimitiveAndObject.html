@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8.1 기본 자료형과 객체의 차이점</title>
+
+    <script>
+        var primitiveNumber = 273;
+        var objectNumber = new Number(273);
+
+        Number.prototype.method = function () {
+            return 'Method on Prototype';
+        };
+
+        var output = '';
+        output += primitiveNumber.method() + '\n';
+        output += objectNumber.method();
+
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

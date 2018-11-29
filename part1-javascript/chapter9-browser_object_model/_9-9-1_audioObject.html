@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9.9.1 Audio 객체</title>
+
+    <script>
+        const audio = new Audio('Kalimba.mpe')
+    </script>
+</head>
+<body>
+    <button onclick="audio.play()">Play</button>
+    <button onclick="audio.pause()">Pause</button>
+    <input type="number" onchange="audio.currentTime=this.value"/>
+    <input type="number" onchange="audio.volume=this.value"/>
+</body>
+</html>
