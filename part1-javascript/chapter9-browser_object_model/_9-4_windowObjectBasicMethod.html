@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9.4 window 객체 기본 메서드</title>
+
+    <script>
+        const child = window.open('', '', 'width=400, height=200');
+
+        // 왼쪽 위를 0, 0 으로 위치
+        child.moveTo(0, 0);
+
+        // 1초마다 왼쪽으로 10pixel, 아래로 10pixel 이동
+        setInterval(function () {
+            child.moveBy(10, 10);
+        }, 1000);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

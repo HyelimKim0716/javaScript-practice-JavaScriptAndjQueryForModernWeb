@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9.6 location 객체</title>
+
+    <script>
+        let output = '';
+
+        for (const key in location) {
+            output += '*' + key + ' : ' + location[key] + '\n';
+        }
+
+        // alert(output);
+
+        location = 'http://www.naver.com';
+        location.href = 'http://dramancompany.com';
+
+        location.assign('http://dramancompany.com/team/');
+        // location.replace('http://blog.dramancompany.com/category/develop/')
+    </script>
+</head>
+<body>
+
+</body>
+</html>

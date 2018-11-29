@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9.3 새로운 window 객체 생성</title>
+
+    <script>
+        window.open();
+
+        window.open('http://naver.com', 'child', 'width=600, height=300', true);
+
+        const child = window.open('', '', 'width=300, height=200');
+
+        // 인터넷 익스플로러 8 이하 팝업 차단 검사
+        if (child) {
+            child.document.write('<h>From Parent Window</h>');
+        } else {
+            alert('팝업 차단을 해제해주세요.')
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

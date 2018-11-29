@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9.9.2 모바일 장치 구분</title>
+
+    <script>
+        const smartPhones = ['iphone', 'ipod', 'android'];
+        for (const i in smartPhones) {
+            if (navigator.userAgent.toLowerCase().match(smartPhones[i])) {
+                alert('스마트폰 페이지로 이동합니다.');
+                location = 'http://m.naver.com';
+            }
+        }
+
+        if (window.orientation == 0 || window.orientation == 180) {
+            alert('세로');
+        } else if (window.orientation == 90 || window.orientation = -90) {
+            alert('가로');
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

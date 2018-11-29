@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9.5 screen 객체</title>
+
+    <script>
+        let output = '';
+
+        for (const key in screen) {
+            output += '* ' + key + ': ' + screen[key] + '\n';
+        }
+
+        alert(output);
+
+        const child = window.open('', '', 'width=300, height=200');
+        const width = screen.width;
+        const height = screen.height;
+
+        child.moveTo(0, 0);
+        child.resizeTo(width, height);
+        setInterval(function () {
+            child.resizeBy(-20, -20);
+            child.moveBy(10, 10)
+        }, 1000);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
