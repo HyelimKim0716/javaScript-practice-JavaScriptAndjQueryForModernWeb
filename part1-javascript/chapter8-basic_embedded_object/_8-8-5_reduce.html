@@ -7,6 +7,10 @@
     <script>
         const array = [1, 2, 3, 4, 5];
 
+        array.reduce(function (previousValue, currentValue) {
+            // return 을 안 할 경우, previousValue 찍으면 undifined 가 나옴
+        });
+
         const reduceResult = array.reduce(function (previousValue, currentValue) {
             // 앞에서부터 2개씩
             return previousValue + currentValue;
