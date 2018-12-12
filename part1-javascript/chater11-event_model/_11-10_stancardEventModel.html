@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11.10 표준 이벤트 모델</title>
+
+    <script>
+        window.onload = function () {
+            const header = document.getElementById('my-header');
+
+            header.addEventListener('click', function () {
+                this.innerHTML += '+';
+            });
+
+            if (header.attachEvent) {
+               const handler = function () {
+                   window.event.srcElement.style.color = 'red';
+                   window.event.srcElement.detachEvent('onclick', handler);
+               };
+
+               header.attachEvent('onclick', handler());
+            } else {
+                const handler = function () {
+                    this.style.color = 'orance';
+                    this.removeEventListener('click', handler)
+                };
+            }
+        };
+    </script>
+</head>
+<body>
+    <h1 id="my-header">Header</h1>
+</body>
+</html>

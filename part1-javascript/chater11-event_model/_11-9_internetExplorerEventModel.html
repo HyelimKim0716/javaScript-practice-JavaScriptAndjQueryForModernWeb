@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11.9 인터넷 익스플로러 이벤트 모델</title>
+
+    <script>
+
+        window.attachEvent('onload', function () {
+            const header = document.getElementById('my-header');
+            const headerHandler = function () {
+                alert('Click 1')
+            };
+
+            header.attachEvent('onclick', headerHandler);
+
+            header.attachEvent('onclick', function () {
+                alert('Click 2')
+            });
+
+            header.attachEvent('onclick', function () {
+                alert('Click 3')
+            });
+
+            header.detachEvent('onclick', headerHandler);
+
+        });
+
+        window.onload = function () {
+            const header = document.getElementById('my-header');
+            const headerHandler = function () {
+                alert('Click 1')
+            };
+
+            header.attachEvent('onclick', headerHandler);
+
+            header.attachEvent('onclick', function () {
+                alert('Click 2')
+            });
+
+            header.attachEvent('onclick', function () {
+                alert('Click 3')
+            });
+
+            header.detachEvent('onclick', headerHandler);
+
+
+            if (header.attachEvent) {
+                const handler = function () {
+                    window.event.srcElement.style.color = 'red';
+                    window.event.srcElement.detachEvent('onclick', handler);
+                };
+
+                header.attachEvent('onclick', handler);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1 id="my-header">Click</h1>
+</body>
+</html>

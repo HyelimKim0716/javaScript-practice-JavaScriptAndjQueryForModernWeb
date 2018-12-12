@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11.7 디폴트 이벤트 제거</title>
+
+    <script>
+        window.onload = function () {
+            document.getElementById('my-form').onsubmit = function () {
+                const password = document.getElementById('pass');
+                const passwordCheck = document.getElementById('pass-check');
+
+                // 유효성 검
+                if (password == passwordCheck) {
+                    alert('비밀번호 같음');
+                } else {
+                    alert('다시 입력해 주세요');
+                    return false;
+                }
+            }
+        }
+    </script>
+    <!--<form onsubmit="return whenSubmit()"></form>-->
+</head>
+<body>
+    <form id="my-form">
+        <label for="name">이름</label><br/>
+        <input type="text" name="name" id="name"><br/>
+        <label for="pass">비밀번호</label>
+        <input type="password" name="pass" id="pass"><br/>
+        <label for="pass-check">비밀번호 확인</label>
+        <input type="password" id="pass-check"><br/>
+        <input type="submit" value="제출"/>
+    </form>
+
+</body>
+</html>
